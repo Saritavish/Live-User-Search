@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.container{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000000 ;
+    width: 300px;
+    overflow: hidden;
+}
+
+header{
+
+    background-color: blue;
+    color: #ffffff;
+    padding: 30px 20px;
+
+}
+
+header h4{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+input{
+
+    margin-top: 20px;
+    background-color: rgb(21, 21, 104);
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+input:focus{
+
+    outline: none;
+}
+
+li img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.user_list{
+
+    background-color: #ffffff;
+  
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.user_list li{
+
+    display: flex;
+    padding: 20px;
+    
+}
+
+ .user_info h4, p{
+    margin: 0px 10px;
+    
+}
+
+.user_info p {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.user_list li:not(:last-of-type){
+
+border-bottom: 1px solid #eee;
+
+}
+
+.user_list li.hide{
+
+    display: none;
+}
+
+
+
+
+
